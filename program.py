@@ -19,7 +19,7 @@ while choice.upper() != 'D':
     elif choice.upper() == 'D':
         print("Thank you!")
 
-def clearRec();
+def clearRec():
     file = open(filename, 'w')
     file.write("")
     file.close()
